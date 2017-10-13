@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="当当css.css"/>
+</head>
+<body>
+<div class="box">
+<header>
+    <nav class="top">
+        <p>欢迎光临当当，请<a href="">登录</a>，<a href="">免费注册</a></p>
+        <ul>
+           <li class="aa">购物车</li>
+           <li>我的订单</li>
+           <li>当当自出版</li>
+           <li class="dd">手机当当</li>
+           <li>我的当当</li>
+           <li>企业采购</li>
+           <li>客户服务</li>
+        </ul>
+        <div class="bb"></div>
+
+    </nav>
+    <div class="center">
+        <img src="logo.jpg" alt=""/>
+    </div>
+    <nav class="bottom">
+        <a href="">全部商品详细分类<span>∨</span></a>
+        <ul>
+            <li>唯品会</li>
+            <li>图书</li>
+            <li>电子书</li>
+            <li>服装</li>
+            <li>运动户外</li>
+            <li>婴孕童</li>
+            <li>家具</li>
+            <li>当当优品</li>
+            <li>电器城</li>
+            <li>当当超市</li>
+            <li>海外购</li>
+        </ul>
+    </nav>
+</header>
+    <!--头部结束-->
+    <!--内容开始-->
+<section>
+     <div class="left">
+         <p>图书分类</p>
+         <div class="left-center">
+             <div class="left-center1">
+             <ul>
+                 <li>电子书</li>
+                 <li>豆瓣原创</li><div class="h1"></div>
+             </ul>
+             </div>
+             <h4><a href="">小说</a></h4>
+             <div class="left-center2">
+                 <h4>文艺</h4>
+                 <ul>
+                     <li>文学</li>
+                     <li>传记</li>
+                     <li>艺术</li>
+                     <li>摄影</li>
+                 </ul>
+             </div>
+             <div class="left-center3">
+                 <h4>青春</h4>
+                 <ul>
+                     <li>青春文学</li>
+                     <li>动漫</li>
+                     <li>幽默</li>
+                 </ul>
+             </div>
+             <div class="left-center4">
+                 <h4>童书</h4>
+                 <ul>
+                 <li>0-2</li>
+                 <li>3-6</li>
+                 <li>7-9</li>
+                     <li>9-9</li>
+                 <li>科普百科</li>
+                 <li>童话书</li>
+                 <li>文字</li>
+                 </ul>
+             </div>
+             <h4 class="h44">励志/成功</h4>
+             <div class="left-center5">
+                 <h4>人文社科</h4>
+                 <ul>
+                     <li>栗色</li>
+                     <li>个护</li>
+                     <li>大幅度</li>
+                     <li>打发</li>
+                     <li>换个地方</li>
+                     <li>二</li>
+                     <li>切尔奇无若</li>
+                     <li>恩恩</li>
+                 </ul>
+             </div>
+             <div class="center6">
+                 <h4>英文原版 港台图书</h4>
+                 <h4>工具书</h4>
+             </div>
+
+         </div>
+     </div>
+    <div class="section-center">
+        <div class="section-center0">
+        <img src="focus.jpg" alt=""/>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        </div>
+       <div class="section-center1">
+           <img src="new_book.png" alt=""/>
+       </div>
+        <div class="section-center2">
+            <ul>
+                <!--<li><img src="book2.jpg" alt=""/>-->
+                   <!--<p>来得及</p>-->
+                     <!--<p>何炅</p>-->
+                   <!--<p>￥40.00 <span>￥43.00</span></p></li> <li><img src="book2.jpg" alt=""/>-->
+                <!--<p>来得及</p>-->
+                <!--<p>何炅</p>-->
+                <!--<p>￥40.00 <span>￥43.00</span></p></li>-->
+
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+          <div class="right1">
+              <h5>最新动态</h5>
+              <ul>
+                  <li>•杨先生的是说啥地方</li>
+                  <li>•哈哈哈哈哈哈</li>
+                  <li>•你你inin我信你你</li>
+              </ul>
+          </div>
+        <div class="right2">
+              <h5>新书预售<span>预售更多</span></h5>
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+   var str='';
+//   for(var i=0;i<=$('.section-center2 li').length;i++){
+
+       str+='<img src="book2.jpg" alt=""/>';
+    str+='<p>来得及</p>';
+     str+=' <p>何炅</p>';
+      str+='<p>￥40.00 <span>￥43.00</span></p>';
+
+      $('.section-center2 ul>li').html(str);
+   $('.section-center2 ul li span').css({
+       textDecoration:'line-through',
+       color:'green'
+
+   });
+
+
+//  }
+
+</script>
+</html>
